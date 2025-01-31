@@ -13,4 +13,14 @@ public class StringCompressionTest {
         assertEquals("implement", result);
 
     }
+
+    @Test
+    public void compressTest2() {
+        StringCompression stringCompression = new StringCompression();
+
+        String result = stringCompression.compress("test");
+
+        assertEquals("implement", result);
+
+    }
 }
